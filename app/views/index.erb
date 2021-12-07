@@ -4,7 +4,8 @@
   </div>
 <% end %>
 
-<% @finstagramposts.each do |finstagram_post| %>
-  <%= erb :'shared/finstagram_post', locals: { finstagram_post: Finstagram_post } %>
+<% @finstagram_posts.each do |finstagram_post| %>
+  <%= erb :'shared/finstagram_post', locals: { finstagram_post: finstagram_post } %>
 <% end %>
+
 
